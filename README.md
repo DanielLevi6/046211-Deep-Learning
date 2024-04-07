@@ -8,7 +8,7 @@ Earthquakes present significant challenges to communities and infrastructure, em
 
 
 ## Methodology
-In this project, we adapted the Receptence, Weight, Key, and Value (RWKV) method to suit our numerical prediction task. RWKV is a powerful technique commonly used in time-series forecasting, which we modified and fine-tuned to suit our specific application better. Leveraging the expertise and resources available, we customized the algorithm to optimize its performance for earthquake prediction.
+In this project, we adapted the Receptance, Weight, Key, and Value (RWKV) method to suit our numerical prediction task. RWKV is a powerful technique commonly used in time-series forecasting, which we modified and fine-tuned to suit our specific application better. Leveraging the expertise and resources available, we customized the algorithm to optimize its performance for earthquake prediction.
 
 
 ## Data
