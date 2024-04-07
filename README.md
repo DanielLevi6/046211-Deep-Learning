@@ -13,7 +13,7 @@ In this project, we adapted the Random Walk Kernel Variance (RWKV) method to sui
 The dataset utilized in this project was obtained from Kaggle and comprises earthquake records about Turkey and its surrounding regions. Spanning from September 1994 to September 2023, the dataset exclusively encompasses earthquakes with magnitudes exceeding 3.0 on the Richter scale. Each earthquake record includes essential information such as the date and time of occurrence, latitude and longitude coordinates, depth below the Earth's surface, and various magnitude measurements (e.g., Richter scale, moment magnitude scale). Additionally, the dataset provides information on the type or source of the earthquake and specifies the location or geographical region where it occurred. This comprehensive dataset serves as the foundation for our earthquake prediction model, enabling robust analysis and forecasting of seismic activity within the region.
 
 ## Model
-RWKV is often used for NLP (natural language processing) tasks, but since our project does not focus on NLP, we had to adjust it. Therefore we added a few layers as can be seen in the digram below.
+RWKV is often used for NLP (natural language processing) tasks, but since our project does not focus on NLP, we had to adjust it. Therefore we added a few layers as can be seen in the diagram below.
 ![Screenshot 2024-04-07 222219](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/1baa273b-f131-4541-bc29-1ef387818908)
 
 
@@ -33,7 +33,7 @@ To utilize our earthquake prediction model, follow these steps:
 5. **Evaluate Results:** Examine predictions and evaluate model performance.
 
 ## Results Summary
-Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory.
+Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory. While our predictions did not match the magnitude's full size, it successfully predicted spikes when they occurred.
 
 ## Conclusion
 In conclusion, our project demonstrates the effectiveness of utilizing advanced numerical techniques, such as RWKV, for earthquake prediction tasks. By leveraging methodologies tailored to our specific requirements and leveraging the resources available at the Technion, we have made significant strides toward enhancing our understanding and forecasting capabilities of seismic events in Turkey.
