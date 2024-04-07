@@ -21,7 +21,9 @@ RWKV is often used for NLP (natural language processing) tasks, but since our pr
 
 
 ## Repository Structure
-- **data:** This directory contains datasets used for training, validating, and testing the prediction model. ![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
+- **data:** This directory contains datasets used for training, validating, and testing the prediction model.
+  Visualizations of the data:
+![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
 - **code:** Source code for the prediction model implementation is located here.
 - **results:** This directory stores model predictions and relevant visualizations.
 ![WhatsApp Image 2024-04-07 at 21 04 28_e8f44de1](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/943feeb5-5404-42fb-9433-4372b0844a0b)
