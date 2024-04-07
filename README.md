@@ -14,17 +14,18 @@ The dataset utilized in this project was obtained from Kaggle and comprises eart
 
 ## Repository Structure
 - **data:** This directory contains datasets used for training, validating, and testing the prediction model. ![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
-s here)*
 - **code:** Source code for the prediction model implementation is located here.
-- **results:** This directory stores model predictions and relevant visualizations. *(Insert images/examples here)*
+- **results:** This directory stores model predictions and relevant visualizations.
+![WhatsApp Image 2024-04-07 at 21 04 28_e8f44de1](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/943feeb5-5404-42fb-9433-4372b0844a0b)
 
 ## How to Use
+
 To utilize our earthquake prediction model, follow these steps:
 1. **Clone the Repository:** Clone this repository to your local machine.
 2. **Install Dependencies:** Ensure all necessary dependencies are installed.
 3. **Prepare Data:** If using custom data, format it appropriately and replace the existing dataset.
 4. **Run the Model:** Execute provided scripts in the `code` directory.
-5. **Evaluate Results:** Examine predictions and evaluate model performance. *(Insert images/examples here)*
+5. **Evaluate Results:** Examine predictions and evaluate model performance.
 
 ## Results Summary
 Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory.
@@ -41,6 +42,6 @@ While our current model shows good results, there is still room for improvement.
 Additionally, more data features can be used and implemented in the model such that it will improve the model's capabilities of predicting the number of earthquakes.
 
 ## Contact
-For inquiries or further information, please contact [insert your contact details here].
+For inquiries or further information, please contact danielevi@campus.technion.ac.il, tzvi-tal@campus.technion.ac.il
 
 Thank you for your interest in our Earthquake Prediction project.
