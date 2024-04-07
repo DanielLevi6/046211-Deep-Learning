@@ -13,7 +13,7 @@ In this project, we adapted the Random Walk Kernel Variance (RWKV) method to sui
 
 ## Data
 The dataset utilized in this project was obtained from Kaggle and comprises earthquake records about Turkey and its surrounding regions. Spanning from September 1994 to September 2023, the dataset exclusively encompasses earthquakes with magnitudes exceeding 3.0 on the Richter scale. Each earthquake record includes essential information such as the date and time of occurrence, latitude and longitude coordinates, depth below the Earth's surface, and various magnitude measurements (e.g., Richter scale, moment magnitude scale). Additionally, the dataset provides information on the type or source of the earthquake and specifies the location or geographical region where it occurred. This comprehensive dataset serves as the foundation for our earthquake prediction model, enabling robust analysis and forecasting of seismic activity within the region.
-
+![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
 
 ## Model
 RWKV is often used for NLP (natural language processing) tasks, but since our project does not focus on NLP, we had to adjust it. Therefore we added a few layers as can be seen in the diagram below.
@@ -22,11 +22,8 @@ RWKV is often used for NLP (natural language processing) tasks, but since our pr
 
 ## Repository Structure
 - **data:** This directory contains datasets used for training, validating, and testing the prediction model.
-  Visualizations of the data:
-![WhatsApp Image 2024-04-07 at 21 04 28_e74cb264](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/c96e8a3b-c3f8-4f27-8d41-56e13096ba48)
 - **code:** Source code for the prediction model implementation is located here.
 - **results:** This directory stores model predictions and relevant visualizations.
-![WhatsApp Image 2024-04-07 at 21 04 28_e8f44de1](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/943feeb5-5404-42fb-9433-4372b0844a0b)
 
 
 ## How to Use
@@ -40,6 +37,7 @@ To utilize our earthquake prediction model, follow these steps:
 
 ## Results Summary
 Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory. While our predictions did not match the magnitude's full size, it successfully predicted spikes when they occurred.
+![WhatsApp Image 2024-04-07 at 21 04 28_e8f44de1](https://github.com/DanielLevi6/046211-Deep-Learning/assets/88712194/943feeb5-5404-42fb-9433-4372b0844a0b)
 
 
 ## Conclusion
