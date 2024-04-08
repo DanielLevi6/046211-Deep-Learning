@@ -37,6 +37,18 @@ To utilize our earthquake prediction model, follow these steps:
 4. **Run the Model:** Execute provided scripts in the `code` directory.
 5. **Evaluate Results:** Examine predictions and evaluate model performance.
 
+## Libraries Used
+
+| Library              | Command to Install                   |
+|----------------------|--------------------------------------|
+| transformers         | `pip install transformers`           |
+| rwkv                 | `pip install rwkv`                   |
+| numpy                | `pip install numpy`                  |
+| pandas               | `pip install pandas`                 |
+| torch                | `pip install torch`                  |
+| matplotlib           | `pip install matplotlib`             |
+| tqdm                 | `pip install tqdm`                   |
+| sklearn.metrics      | `pip install scikit-learn`           |
 
 ## Results Summary
 Our adapted RWKV method shows good results in predicting the number of earthquakes in Turkey. We used training, validation, and testing to achieve our results. Detailed results and visualizations can be found in the `results` directory. While our predictions did not match the magnitude's full size, it successfully predicted spikes when they occurred.
